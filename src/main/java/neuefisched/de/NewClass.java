@@ -12,4 +12,13 @@ public class NewClass {
     public void incrementInstanceCount(){
         instanceCount++;
     }
+
+
+    @Override
+    public String toString() {
+        return "NewClass{" +
+                "instanceCount=" + instanceCount +
+                '}' + "and totalCount =  " + totalCount;
+    }
+
 }

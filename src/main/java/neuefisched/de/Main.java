@@ -7,8 +7,22 @@ public class Main {
         NewClass object3 = new NewClass();
         NewClass object4 = new NewClass();
 
+
+        System.out.println(object);
+        NewClass.incrementTotalCount();
+        NewClass.incrementTotalCount();
+        NewClass.incrementTotalCount();
+        NewClass.incrementTotalCount();
+        System.out.println(object);
+        NewClass.incrementTotalCount();
         NewClass.incrementTotalCount();
         object.incrementInstanceCount();
+        object.incrementInstanceCount();
+        object.incrementInstanceCount();
+        System.out.println(object);
+        object.incrementInstanceCount();
+        object.incrementInstanceCount();
+        System.out.println(object);
 
     }
 }
