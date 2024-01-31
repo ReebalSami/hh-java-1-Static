@@ -11,7 +11,6 @@ public class NewClass {
 
     public void incrementInstanceCount(){
         instanceCount++;
-        totalCount++;
     }
 
     @Override
