@@ -8,4 +8,8 @@ public class NewClass {
     public static void incrementTotalCount(){
         totalCount++;
     }
+
+    public void incrementInstanceCount(){
+        instanceCount++;
+    }
 }
