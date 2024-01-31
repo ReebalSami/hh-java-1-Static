@@ -2,8 +2,8 @@ package neuefisched.de;
 
 public class NewClass {
 
-    public static int totalCount = 0;
-    public int instanceCount = 0;
+    private static int totalCount = 0;
+    private int instanceCount = 0;
 
     public static void incrementTotalCount(){
         totalCount++;
@@ -11,14 +11,16 @@ public class NewClass {
 
     public void incrementInstanceCount(){
         instanceCount++;
+        totalCount++;
     }
-
 
     @Override
     public String toString() {
         return "NewClass{" +
-                "instanceCount=" + instanceCount +
-                '}' + "and totalCount =  " + totalCount;
+                " totalCount= " + totalCount +
+                " instanceCount= " + instanceCount +
+                " " +
+                '}';
     }
 
 }

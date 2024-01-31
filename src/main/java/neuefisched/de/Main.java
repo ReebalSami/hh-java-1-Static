@@ -2,7 +2,7 @@ package neuefisched.de;
 
 public class Main {
     public static void main(String[] args) {
-        NewClass object = new NewClass();
+        /*NewClass object = new NewClass();
         NewClass object2 = new NewClass();
         NewClass object3 = new NewClass();
         NewClass object4 = new NewClass();
@@ -22,7 +22,10 @@ public class Main {
         System.out.println(object);
         object.incrementInstanceCount();
         object.incrementInstanceCount();
-        System.out.println(object);
+        System.out.println(object);*/
+        int a = 4;
+        int b = 2;
 
+        System.out.println(a + "+" + b + "=" +Calculator.add(a,b));
     }
 }
